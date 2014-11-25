@@ -1,0 +1,47 @@
+﻿<Page
+    x:Class="SAP2UniversalApp.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:SAP2UniversalApp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="60"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <StackPanel Grid.Row="0" Grid.Column="0" Margin="0,0,0,0">
+            <Button x:Name="SAPGWM" Click="SAPGWM_Click" HorizontalAlignment="Center" BorderBrush="Gray">
+                <StackPanel Width="auto">
+                    <TextBlock Text="Get Data" FontSize="20" />
+                </StackPanel>
+            </Button>
+        </StackPanel>
+
+        <StackPanel Grid.Row="1" Grid.Column="0" Margin="0,0,0,0">
+            <TextBlock x:Name="HelpText"  Text="This is the sample application of Windows 8 to retrieve GWM data." TextWrapping="Wrap" FontSize="20" />
+            <WebView x:Name="SignInPage" Height="600" NavigationStarting="SignInPage_NavigationStarting"/>
+            <ListView x:Name="DataList" ItemsSource="{Binding}">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <StackPanel>
+                            <TextBlock Text="{Binding Title}" FontSize="28"/>
+                            <TextBlock Text="{Binding Engine}" FontSize="20"/>
+                            <TextBlock Text="{Binding ExtColor}" FontSize="20"/>
+                            <TextBlock Text="{Binding Price}" FontSize="20"/>
+                            <TextBlock Text="{Binding Status}" FontSize="20"/>
+                            <TextBlock Text="{Binding ContactPhone}" FontSize="20"/>
+                        </StackPanel>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackPanel>
+    </Grid>
+</Page>

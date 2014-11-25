@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VCOTLKAPP", "VCOTLKAPP\VCOTLKAPP.csproj", "{74FEEAC3-11BF-456F-8AE1-0FFD4CA82B93}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VCOTLKAPPWeb", "VCOTLKAPPWeb\VCOTLKAPPWeb.csproj", "{DFA5E8CB-18CF-43F9-B8CF-C3C560548C64}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{74FEEAC3-11BF-456F-8AE1-0FFD4CA82B93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74FEEAC3-11BF-456F-8AE1-0FFD4CA82B93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74FEEAC3-11BF-456F-8AE1-0FFD4CA82B93}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{74FEEAC3-11BF-456F-8AE1-0FFD4CA82B93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74FEEAC3-11BF-456F-8AE1-0FFD4CA82B93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74FEEAC3-11BF-456F-8AE1-0FFD4CA82B93}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{DFA5E8CB-18CF-43F9-B8CF-C3C560548C64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFA5E8CB-18CF-43F9-B8CF-C3C560548C64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFA5E8CB-18CF-43F9-B8CF-C3C560548C64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFA5E8CB-18CF-43F9-B8CF-C3C560548C64}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

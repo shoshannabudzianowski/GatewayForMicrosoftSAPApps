@@ -1,0 +1,472 @@
+<html xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mtps="http://msdn2.microsoft.com/mtps" xmlns:mshelp="http://msdn.microsoft.com/mshelp" xmlns:ddue="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:msxsl="urn:schemas-microsoft-com:xslt"><head><META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8" /><META NAME="BuildDateTime" CONTENT="2014-08-05 10:55:19" /><META NAME="BuildVersion" CONTENT="1.0.14217.1055" /><META NAME="save" CONTENT="history" /><META NAME="DCSext.Title" CONTENT="SharePoint 2013: Use the SAP Gateway to Microsoft in an app for SharePoint" /><title>SharePoint 2013: Use the SAP Gateway to Microsoft in an app for SharePoint</title><meta name="Language" content="en-us" /><meta name="Microsoft.Help.Id" content="973565bb-1f76-4739-92e9-6bd7a1b919dd" /><meta name="Microsoft.Help.ContentType" content="Concepts" /><style type="text/css">
+                        .userDataStyle {
+                        BEHAVIOR: url(#default#userData)
+                        }
+                        DIV.saveHistory {
+                        BEHAVIOR: url(#default#savehistory)
+                        }
+                        IMG.toggle {
+                        BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; BORDER-TOP: 0px; MARGIN-RIGHT: 5px; BORDER-RIGHT: 0px
+                        }
+                        IMG#toggleAllImage {
+                        MARGIN-LEFT: 0px; VERTICAL-ALIGN: middle
+                        }
+                        MSHelp\:link {
+                        COLOR: #0000ff; CURSOR: hand; TEXT-DECORATION: underline; hoverColor: #3366ff
+                        }
+                        MSHelp\:link:visited {
+                        COLOR: #0481da
+                        }
+                        BODY {
+                        FONT-STYLE: normal; MARGIN: 0px; WIDTH: 100%; FONT-FAMILY: Verdana; BACKGROUND: #ffffff; COLOR: #000000; FONT-SIZE: medium; FONT-WEIGHT: normal
+                        }
+                        DL {
+                        MARGIN-TOP: 15px; PADDING-LEFT: 1px; MARGIN-BOTTOM: 5px
+                        }
+                        DL.authored DT {
+                        MARGIN-TOP: 2px
+                        }
+                        DD {
+                        MARGIN-LEFT: 0px
+                        }
+                        UL {
+                        LIST-STYLE-TYPE: disc; MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px; MARGIN-LEFT: 17px
+                        }
+                        UL UL {
+                        LIST-STYLE-TYPE: disc; MARGIN-TOP: 3px; MARGIN-BOTTOM: 4px; MARGIN-LEFT: 17px
+                        }
+                        OL {
+                        LIST-STYLE-TYPE: decimal; MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px; MARGIN-LEFT: 28px
+                        }
+                        OL OL {
+                        LIST-STYLE-TYPE: lower-alpha; MARGIN-TOP: 3px; MARGIN-BOTTOM: 4px; MARGIN-LEFT: 28px
+                        }
+                        OL OL OL {
+                        LIST-STYLE-TYPE: lower-roman; MARGIN-TOP: 3px; MARGIN-BOTTOM: 4px; MARGIN-LEFT: 28px
+                        }
+                        LI {
+                        MARGIN-TOP: 5px; MARGIN-BOTTOM: 5px
+                        }
+                        P {
+                        MARGIN-TOP: 10px; MARGIN-BOTTOM: 5px
+                        }
+                        A:link {
+                        COLOR: #0000ff
+                        }
+                        A:visited {
+                        COLOR: #dd7c3b
+                        }
+                        A:hover {
+                        COLOR: #3366ff
+                        }
+                        CODE {
+                        FONT-FAMILY: Monospace, Courier New, Courier; COLOR: #000066; FONT-SIZE: 105%
+                        }
+                        SPAN.parameter {
+                        FONT-STYLE: italic
+                        }
+                        SPAN.italic {
+                        FONT-STYLE: italic
+                        }
+                        SPAN.selflink {
+                        FONT-WEIGHT: bold
+                        }
+                        SPAN.nolink {
+                        FONT-WEIGHT: bold
+                        }
+                        DIV#mainSection {
+                        WIDTH: 100%; FONT-SIZE: 62.5%
+                        }
+                        HTML &gt; BODY #mainSection {
+                        WIDTH: 100%; FONT-SIZE: 73%
+                        }
+                        DIV#mainBody {
+                        MARGIN-TOP: 10px; MARGIN-LEFT: 15px; FONT-SIZE: 100%
+                        }
+                        HTML &gt; BODY #mainBody {
+                        PADDING-BOTTOM: 20px; MARGIN-TOP: 10px; MARGIN-LEFT: 15px; FONT-SIZE: 93%
+                        }
+                        DIV#mainBody P {
+                        PADDING-RIGHT: 5px
+                        }
+                        DIV#mainBody OL {
+                        PADDING-RIGHT: 5px
+                        }
+                        DIV#mainBody UL {
+                        PADDING-RIGHT: 5px
+                        }
+                        DIV#mainBody DL {
+                        PADDING-RIGHT: 5px
+                        }
+                        DIV#header {
+                        PADDING-BOTTOM: 0px; BACKGROUND-COLOR: #ffffff; PADDING-LEFT: 0px; WIDTH: 100%; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+                        }
+                        DIV#header TABLE {
+                        WIDTH: 100%
+                        }
+                        DIV#header TABLE TD {
+                        MARGIN-TOP: 0px; PADDING-RIGHT: 20px; MARGIN-BOTTOM: 0px; COLOR: #0000ff; FONT-SIZE: 70%
+                        }
+                        DIV#header TABLE TR#headerTableRow2 TD {
+                        PADDING-LEFT: 13px
+                        }
+                        DIV#header TABLE TR#headerTableRow3 TD {
+                        PADDING-LEFT: 15px; PADDING-TOP: 2px
+                        }
+                        DIV#header TABLE#bottomTable {
+                        TEXT-ALIGN: left; PADDING-BOTTOM: 5px; PADDING-LEFT: 15px; BORDER-TOP: #ffffff 1px solid; PADDING-TOP: 5px
+                        }
+                        DIV#mainSection TABLE TD.imageCell {
+                        WHITE-SPACE: nowrap
+                        }
+                        DIV#mainBody DIV.alert {
+                        WIDTH: 98.9%
+                        }
+                        DIV#mainBody DIV.code {
+                        WIDTH: 98.9%
+                        }
+                        DIV#mainBody DIV.tableSection {
+                        WIDTH: 98.9%
+                        }
+                        DIV#mainBody DIV.section DIV.alert {
+                        WIDTH: 100%
+                        }
+                        DIV#mainBody DIV.section DIV.code {
+                        WIDTH: 100%
+                        }
+                        DIV#mainBody DIV.section DIV.tableSection {
+                        WIDTH: 100%
+                        }
+                        DIV#mainBody DIV.section UL DIV.alert {
+                        WIDTH: 100%
+                        }
+                        DIV#mainBody DIV.section UL DIV.code {
+                        WIDTH: 100%
+                        }
+                        DIV#mainBody DIV.section UL DIV.tableSection {
+                        WIDTH: 100%
+                        }
+                        DIV#mainBody DIV.section OL DIV.alert {
+                        WIDTH: 100%
+                        }
+                        DIV#mainBody DIV.section OL DIV.code {
+                        WIDTH: 100%
+                        }
+                        DIV#mainBody DIV.section OL DIV.tableSection {
+                        WIDTH: 100%
+                        }
+                        DIV.alert P {
+                        MARGIN-TOP: 5px; MARGIN-BOTTOM: 8px
+                        }
+                        DIV.code P {
+                        MARGIN-TOP: 5px; MARGIN-BOTTOM: 8px
+                        }
+                        DD P {
+                        MARGIN-TOP: 2px; MARGIN-BOTTOM: 8px
+                        }
+                        DIV.tableSection P {
+                        MARGIN-TOP: 1px; MARGIN-BOTTOM: 4px
+                        }
+                        LI P {
+                        MARGIN-TOP: 2px; MARGIN-BOTTOM: 2px
+                        }
+                        DIV.seeAlsoNoToggleSection DL {
+                        MARGIN-TOP: 8px; PADDING-LEFT: 1px; MARGIN-BOTTOM: 1px
+                        }
+                        DIV.seeAlsoNoToggleSection DD P {
+                        MARGIN-TOP: 2px; MARGIN-BOTTOM: 8px
+                        }
+                        DIV.section DL {
+                        MARGIN-TOP: 8px; PADDING-LEFT: 1px; MARGIN-BOTTOM: 1px
+                        }
+                        DIV.section DD P {
+                        MARGIN-TOP: 2px; MARGIN-BOTTOM: 8px
+                        }
+                        DIV.code TABLE {
+                        BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; MARGIN-TOP: -0.4em; WIDTH: 100%; MARGIN-BOTTOM: 5px; FONT-SIZE: 95%; BORDER-TOP: 0px; BORDER-RIGHT: 0px
+                        }
+                        DIV.code TABLE TH {
+                        BORDER-BOTTOM: #c8cdde 1px solid; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; BACKGROUND: #efeff7; COLOR: #000066; FONT-WEIGHT: bold
+                        }
+                        DIV.code TABLE TD {
+                        PADDING-LEFT: 5px; PADDING-RIGHT: 5px; BACKGROUND: #f7f7ff; BORDER-TOP: #ffffff 1px solid; PADDING-TOP: 5px
+                        }
+                        SPAN#runningHeaderText {
+                        PADDING-LEFT: 13px; COLOR: #8c8c8c; FONT-SIZE: 90%
+                        }
+                        SPAN#nsrTitle {
+                        FONT-FAMILY: arial; COLOR: #000000; FONT-SIZE: 160%; FONT-WEIGHT: 400
+                        }
+                        DIV#footer {
+                        PADDING-BOTTOM: 6px; MARGIN: 0px; PADDING-LEFT: 1px; WIDTH: 100%; PADDING-RIGHT: 1px; FONT-SIZE: 80%; PADDING-TOP: 8px
+                        }
+                        HTML &gt; BODY DIV#footer {
+                        PADDING-BOTTOM: 6px; MARGIN: 0px; PADDING-LEFT: 1px; WIDTH: 98%; PADDING-RIGHT: 1px; FONT-SIZE: 80%; PADDING-TOP: 2px
+                        }
+                        DIV.seeAlsoNoToggleSection {
+                        PADDING-BOTTOM: 2px; PADDING-LEFT: 0px; WIDTH: 100%; PADDING-RIGHT: 15px; MARGIN-LEFT: 0px; PADDING-TOP: 2px
+                        }
+                        DIV.section {
+                        PADDING-BOTTOM: 0px; PADDING-LEFT: 16px; WIDTH: 100%; PADDING-RIGHT: 15px; MARGIN-LEFT: 0px; PADDING-TOP: 0px
+                        }
+                        HTML &gt; BODY DIV.section {
+                        PADDING-BOTTOM: 2px; PADDING-LEFT: 16px; WIDTH: 97%; PADDING-RIGHT: 15px; MARGIN-LEFT: 0px; PADDING-TOP: 2px
+                        }
+                        DIV.seeSection {
+                        PADDING-BOTTOM: 2px; PADDING-LEFT: 16px; WIDTH: 100%; PADDING-RIGHT: 15px; MARGIN-LEFT: 0px; PADDING-TOP: 0px
+                        }
+                        .heading {
+                        MARGIN-TOP: 18px; MARGIN-BOTTOM: 8px; FONT-WEIGHT: bold
+                        }
+                        H1.heading {
+                        COLOR: #003399; FONT-SIZE: 145%
+                        }
+                        .subHeading {
+                        MARGIN-BOTTOM: 4px; FONT-WEIGHT: bold
+                        }
+                        .procedureSubHeading {
+                        MARGIN-BOTTOM: 4px; FONT-WEIGHT: bold
+                        }
+                        H3.subHeading {
+                        COLOR: #003399; FONT-SIZE: 125%; FONT-WEIGHT: 800
+                        }
+                        H3.procedureSubHeading {
+                        COLOR: #003399; FONT-SIZE: 100%
+                        }
+                        H4.subHeading {
+                        FONT-VARIANT: small-caps; COLOR: #003399; FONT-SIZE: 110%; FONT-WEIGHT: 800
+                        }
+                        SPAN.labelheading {
+                        COLOR: #003399; FONT-SIZE: 100%
+                        }
+                        DIV.labelheading {
+                        COLOR: #003399; FONT-SIZE: 100%
+                        }
+                        IMG.copyCodeImage {
+                        BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; MARGIN: 1px 3px 1px 1px; BORDER-TOP: 0px; BORDER-RIGHT: 0px
+                        }
+                        IMG.downloadCodeImage {
+                        BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; BORDER-TOP: 0px; MARGIN-RIGHT: 3px; BORDER-RIGHT: 0px
+                        }
+                        IMG.viewCodeImage {
+                        BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; BORDER-TOP: 0px; MARGIN-RIGHT: 3px; BORDER-RIGHT: 0px
+                        }
+                        IMG.note {
+                        BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; BORDER-TOP: 0px; MARGIN-RIGHT: 3px; BORDER-RIGHT: 0px
+                        }
+                        DIV#mainSection TABLE {
+                        BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; MARGIN-TOP: 5px; WIDTH: 98.9%; MARGIN-BOTTOM: 5px; FONT-SIZE: 100%; BORDER-TOP: 0px; BORDER-RIGHT: 0px
+                        }
+                        DIV#mainSection TABLE TR {
+                        VERTICAL-ALIGN: top
+                        }
+                        DIV#mainSection TABLE TH {
+                        BORDER-BOTTOM: #c8cdde 1px solid; TEXT-ALIGN: left; BORDER-LEFT: #d5d5d3 1px; BACKGROUND-COLOR: #efeff7; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; COLOR: #000066
+                        }
+                        DIV#mainSection TABLE TD {
+                        BORDER-BOTTOM: #d5d5d3 1px solid; BORDER-LEFT: #d5d5d3 1px; BACKGROUND-COLOR: #f7f7ff; PADDING-LEFT: 5px; PADDING-RIGHT: 5px
+                        }
+                        DIV#mainSection TABLE TD.imageCell {
+                        WHITE-SPACE: nowrap
+                        }
+                        DIV.code TABLE {
+                        BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; WIDTH: 100%; MARGIN-BOTTOM: 5px; FONT-SIZE: 95%; BORDER-TOP: 0px; BORDER-RIGHT: 0px
+                        }
+                        DIV.code TABLE TH {
+                        BORDER-BOTTOM: #c8cdde 1px solid; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; BACKGROUND: #efeff7; COLOR: #000066; FONT-WEIGHT: bold
+                        }
+                        DIV.code TABLE TD {
+                        PADDING-LEFT: 5px; PADDING-RIGHT: 5px; BACKGROUND: #f7f7ff; BORDER-TOP: #ffffff 1px solid; PADDING-TOP: 5px
+                        }
+                        DIV.alert TABLE {
+                        BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; WIDTH: 100%; FONT-SIZE: 100%; BORDER-TOP: 0px; BORDER-RIGHT: 0px
+                        }
+                        DIV.alert TABLE TH {
+                        PADDING-LEFT: 5px; PADDING-RIGHT: 5px; BACKGROUND: #efeff7; BORDER-BOTTOM-WIDTH: 0px; COLOR: #000066
+                        }
+                        DIV.alert TABLE TD {
+                        PADDING-LEFT: 5px; PADDING-RIGHT: 5px; BACKGROUND: #f7f7ff; BORDER-TOP: #ffffff 1px solid
+                        }
+                        SPAN.copyCode {
+                        TEXT-ALIGN: right; DISPLAY: inline; FLOAT: right; COLOR: #0000ff; FONT-SIZE: 90%; CURSOR: pointer; FONT-WEIGHT: normal; TEXT-DECORATION: underline
+                        }
+                        SPAN.copyCodeOnHover {
+                        TEXT-ALIGN: right; DISPLAY: inline; FLOAT: right; COLOR: #e85f17; FONT-SIZE: xx-small; CURSOR: pointer; FONT-WEIGHT: normal; TEXT-DECORATION: underline
+                        }
+                        .downloadCode {
+                        COLOR: #0000ff; FONT-SIZE: 90%; CURSOR: pointer; FONT-WEIGHT: normal
+                        }
+                        .viewCode {
+                        COLOR: #0000ff; FONT-SIZE: 90%; CURSOR: pointer; FONT-WEIGHT: normal
+                        }
+                        DIV.code PRE {
+                        FONT-FAMILY: Monospace, Courier New, Courier; WORD-WRAP: break-word; BACKGROUND: #f7f7ff; COLOR: #000066; FONT-SIZE: 105%
+                        }
+                        .tip {
+                        FONT-STYLE: italic; COLOR: #0000ff; CURSOR: pointer; TEXT-DECORATION: underline
+                        }
+                        .math {
+                        FONT-FAMILY: Times New Roman; FONT-SIZE: 125%
+                        }
+                        #devlangsMenu {
+                        BORDER-BOTTOM: #f3cbb5 1px solid; POSITION: absolute; BORDER-LEFT: #f3cbb5 1px solid; PADDING-BOTTOM: 4px; PADDING-LEFT: 4px; PADDING-RIGHT: 8px; BACKGROUND: #fcece4; VISIBILITY: hidden; FONT-SIZE: 70%; BORDER-TOP: #f3cbb5 1px solid; BORDER-RIGHT: #f3cbb5 1px solid; PADDING-TOP: 4px
+                        }
+                        #memberOptionsMenu {
+                        BORDER-BOTTOM: #f3cbb5 1px solid; POSITION: absolute; BORDER-LEFT: #f3cbb5 1px solid; PADDING-BOTTOM: 4px; PADDING-LEFT: 4px; PADDING-RIGHT: 8px; BACKGROUND: #fcece4; VISIBILITY: hidden; FONT-SIZE: 70%; BORDER-TOP: #f3cbb5 1px solid; BORDER-RIGHT: #f3cbb5 1px solid; PADDING-TOP: 4px
+                        }
+                        #memberFrameworksMenu {
+                        BORDER-BOTTOM: #f3cbb5 1px solid; POSITION: absolute; BORDER-LEFT: #f3cbb5 1px solid; PADDING-BOTTOM: 4px; PADDING-LEFT: 4px; PADDING-RIGHT: 8px; BACKGROUND: #fcece4; VISIBILITY: hidden; FONT-SIZE: 70%; BORDER-TOP: #f3cbb5 1px solid; BORDER-RIGHT: #f3cbb5 1px solid; PADDING-TOP: 4px
+                        }
+                        .checkboxLabel {
+                        PADDING-BOTTOM: 4px; COLOR: #0000ff; FONT-SIZE: 90%; CURSOR: pointer; TEXT-DECORATION: underline
+                        }
+                        IMG#devlangsDropdownImage {
+                        BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; MARGIN-LEFT: 0px; VERTICAL-ALIGN: middle; BORDER-TOP: 0px; BORDER-RIGHT: 0px
+                        }
+                        IMG#memberOptionsDropdownImage {
+                        BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; MARGIN-LEFT: 0px; VERTICAL-ALIGN: middle; BORDER-TOP: 0px; BORDER-RIGHT: 0px
+                        }
+                        IMG#memberFrameworksDropdownImage {
+                        BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; MARGIN-LEFT: 0px; VERTICAL-ALIGN: middle; BORDER-TOP: 0px; BORDER-RIGHT: 0px
+                        }
+                        DIV.footerLine {
+                        PADDING-BOTTOM: 6px; MARGIN: 0px; WIDTH: 100%; PADDING-TOP: 8px
+                        }
+                        DIV.hr1 {
+                        PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; WIDTH: 100%; PADDING-RIGHT: 0px; BACKGROUND: #c8cdde; HEIGHT: 1px; FONT-SIZE: 1px; PADDING-TOP: 0px
+                        }
+                        DIV.hr2 {
+                        PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; WIDTH: 100%; PADDING-RIGHT: 0px; BACKGROUND: #d4dfff; HEIGHT: 1px; FONT-SIZE: 1px; PADDING-TOP: 0px
+                        }
+                        DIV.hr3 {
+                        PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; WIDTH: 100%; PADDING-RIGHT: 0px; BACKGROUND: #eeeeff; HEIGHT: 1px; FONT-SIZE: 1px; PADDING-TOP: 0px
+                        }
+                        SPAN.cs {
+                        DISPLAY: none
+                        }
+                        SPAN.vb {
+                        DISPLAY: none
+                        }
+                        SPAN.cpp {
+                        DISPLAY: none
+                        }
+                        SPAN.nu {
+                        DISPLAY: inline
+                        }
+                        SPAN.fs {
+                        DISPLAY: none
+                        }
+                        SPAN.code {
+                        FONT-FAMILY: Monospace, Courier New, Courier; COLOR: #000066; FONT-SIZE: 105%
+                        }
+                        SPAN.ui {
+                        FONT-WEIGHT: bold
+                        }
+                        SPAN.math {
+                        FONT-STYLE: italic
+                        }
+                        SPAN.input {
+                        FONT-WEIGHT: bold
+                        }
+                        SPAN.term {
+                        FONT-STYLE: italic
+                        }
+                        SPAN.label {
+                        FONT-WEIGHT: bold
+                        }
+                        SPAN.foreignPhrase {
+                        FONT-STYLE: italic
+                        }
+                        SPAN.placeholder {
+                        FONT-STYLE: italic
+                        }
+                        SPAN.keyword {
+                        FONT-WEIGHT: bold
+                        }
+                        SPAN.typeparameter {
+                        FONT-STYLE: italic
+                        }
+                        DIV.caption {
+                        COLOR: #003399; FONT-SIZE: 100%; FONT-WEIGHT: bold
+                        }
+                        DIV.code SPAN.identifier {
+
+                        }
+                        DIV.code SPAN.keyword {
+                        COLOR: #871f78
+                        }
+                        DIV.code SPAN.parameter {
+                        FONT-STYLE: italic
+                        }
+                        DIV.code SPAN.literal {
+                        COLOR: #8b0000
+                        }
+                        DIV.code SPAN.comment {
+                        COLOR: #006400
+                        }
+                        SPAN.syntaxLabel {
+                        COLOR: #0481da; FONT-WEIGHT: bold
+                        }
+                        SPAN.introStyle {
+                        COLOR: darkgray
+                        }
+                        DIV.seeAlsoStyle {
+                        PADDING-TOP: 5px
+                        }
+                        TD.nsrBottom {
+                        WIDTH: 100%; HEIGHT: 0.6em
+                        }
+                        SPAN.clsGlossary {
+                        COLOR: #509950; CURSOR: default; FONT-WEIGHT: bold
+                        }
+                        DIV.clsTooltip {
+                        BORDER-BOTTOM: black 1px solid; POSITION: absolute; BORDER-LEFT: black 1px solid; PADDING-BOTTOM: 2px; BACKGROUND-COLOR: #ffffaa; PADDING-LEFT: 2px; PADDING-RIGHT: 2px; DISPLAY: none; FONT-FAMILY: Arial; COLOR: black; FONT-SIZE: 8pt; BORDER-TOP: black 1px solid; BORDER-RIGHT: black 1px solid; PADDING-TOP: 2px; TOP: 0px; LEFT: 0px
+                        }
+                        SPAN.feedbackcss {
+                        WIDTH: 100%; MARGIN-LEFT: 15px; FONT-SIZE: 110%
+                        }
+                        DIV#feedbackarea TABLE {
+                        BORDER-RIGHT-WIDTH: 0px; MARGIN-TOP: 0px; WIDTH: 300px; MARGIN-BOTTOM: 0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; MARGIN-LEFT: 0px; BORDER-LEFT-WIDTH: 0px
+                        }
+                        DIV#feedbackarea TABLE TD {
+                        BORDER-BOTTOM: 0px; TEXT-ALIGN: center; FONT-FAMILY: Verdana; FONT-SIZE: 100%
+                        }
+                        DIV#feedbackarea P {
+                        MARGIN: 0px 5px 0px 6px; WIDTH: 100%; FONT-SIZE: 100%
+                        }
+                        DIV#feedbackarea H5 {
+                        MARGIN-TOP: 0px; MARGIN-BOTTOM: 0.7em; MARGIN-LEFT: 6px; FONT-SIZE: 10pt
+                        }
+                        P.feedbackarea {
+                        BACKGROUND-COLOR: #d4dfff; ; WIDTH: expression(document.body.clientWidth-27); FONT-SIZE: 100%
+                        }
+                        INPUT#submitFeedback {
+                        TEXT-ALIGN: center; FONT-SIZE: 100%
+                        }
+                        SPAN#feedbackarea {
+                        WIDTH: 100%
+                        }
+                        DIV#feedbackarea {
+                        WIDTH: 100%
+                        }
+                        SPAN.filterOnHover {
+                        COLOR: #e85f17
+                        }
+                        SPAN.filter {
+                        COLOR: #0000ff
+                        }
+                        A IMG {
+                        BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; BORDER-TOP: 0px; BORDER-RIGHT: 0px
+                        }
+                    </style></head><body><div id="header"><table id="bottomTable" cellpadding="0" cellspacing="0"><tr id="headerTableRow1"><td align="left"><span id="runningHeaderText" /></td></tr><tr id="headerTableRow2"><td align="left"><span id="nsrTitle">SharePoint 2013: Use the SAP Gateway to Microsoft in an app for SharePoint</span></td></tr></table></div><div id="mainSection"><div id="mainBody"><div class="summary"><p><span class="label">Summary:</span>&nbsp;&nbsp;This sample surfaces SAP data in provider-hosted app for SharePoint by means of the SAP Gateway to Microsoft (GWM). Authentication and authorization is by means of Microsoft Azure Active Directory. The languages used are C# and ASP.NET markup. The tools used to setup the sample are Visual Studio and the Azure Portal.</p></div><div class="introduction"><p><b>Last modified:  </b>August 04, 2014</p><p><i><b>Applies to:  </b> SharePoint Online</i></p><p><b>In this article</b><br /><a href="#sectionSection0">Prerequisites</a><br /><a href="#O15Readme_components">Key components of the sample</a><br /><a href="#O15Readme_config">Register and modify the sample for your development environment</a><br /><a href="#sectionSection3">Run and test the sample</a><br /></p><p>The sample includes a remote ASP.NET page that makes a REST/OData call to a SAP endpoint by means of the GWM. </p></div><a name="sectionSection0"></a><h2 class="heading">Prerequisites</h2><div id="sectionSection0" class="section" name="collapseableSection" style=""><p>This sample requires the following:</p><ul><li><p>Microsoft Visual Studio 2013 Update 2 or later.</p></li><li><p>Office Developer Tools for Visual Studio 2013 March, 2014, version or later. (This is included in Update 2 of Visual Studio 2013.)</p></li><li><p>A Office 365 Developer Site in an Office 365 domain that is associated with a Azure AD tenancy. See <a href="http://msdn.microsoft.com/en-us/library/office/fp179924(v=office.15).aspx" target="_blank">Sign up for an Office 365 Developer Site, set up your tools and environment, and start deploying apps</a> or <a href="http://msdn.microsoft.com/en-us/library/office/jj692554(v=office.15).aspx" target="_blank">How to: Create a Developer Site within your existing Office 365 subscription</a>.</p></li><li><p>A Gateway for Microsoft (GWM) deployed and configured in Microsoft Azure. See the document <b>SAP Gateway to Microsoft Implementation Guide</b>.</p></li><li><p>An organization account in Microsoft Azure. See <a href="http://msdn.microsoft.com/en-us/library/office/dn605894(v=office.15).aspx#bk_CreateOrganizationAccount" target="_blank">Create an organizational user account</a>.</p></li><li><p>A SAP OData endpoint with sample data in it. See the document <b>SAP Gateway to Microsoft Implementation Guide</b>.</p></li></ul></div><a name="O15Readme_components" /><h2 class="heading">Key components of the sample</h2><div id="sectionSection1" class="section" name="collapseableSection" style=""><p>The Visual Studio solution contains the following:</p><ul><li><p><b>SAP2SharePoint</b> project, which contains no significant SharePoint-hosted components.</p></li><li><p><b>SAP2SharePointWeb</b> project, which contains the following components:</p><ul><li><p>Default.aspx page and associated C# code behind page.</p></li><li><p>A C# file that defines the data model class.</p></li><li><p>A C# class file that defines a helper class for handling Azure AD authorization.</p></li><li><p>Two C# Microsoft Azure Access Control Service (ACS) authorization helper files. These are added to the project automatically by the Office Developer Tools for Visual Studio 2013 and they are not used in this sample, but they can be used if you extend the sample to have it get data from SharePoint as well as SAP.</p></li></ul></li></ul></div><a name="O15Readme_config" /><h2 class="heading">Register and modify the sample for your development environment</h2><div id="sectionSection2" class="section" name="collapseableSection" style=""><p>The following procedures need to be carried out before the sample can work with your Azure AD tenancy and SAP endpoint.</p><h3 class="procedureSubHeading">Modify Visual Studio solution and the code and markup in the application</h3><div class="subSection"><ol><li><p>Unzip the sample and open the *.sln file in Visual Studio.</p></li><li><p>Update the <b>SiteUrl</b> property of the <span class="ui">SAP2SharePoint</span> project with the URL of your Office 365 Developer Site.</p></li><li><p>Open the web.config file of the ASP.NET project and change the "localhost:<i>&lt;port&gt;</i>" part of the value of the <span class="keyword">AppRedirectUrl</span> key in the <span class="keyword">appSettings</span> section to the value of the <span class="ui">SSL URL</span> property of the <span class="ui">SAP2SharePointWeb</span> project. (It may already be the same.)</p></li><li><p>Set the value of the <span class="keyword">Authority</span> key to the Office 365 domain of your organization account. For example, <span class="code">my_domain.onmicrosoft.com</span>. Note this is a onmicrosoft.com domain, not a sharepoint.com domain.</p></li><li><p>Set the value of the <span class="keyword">ResourceUrl</span> key to the APP ID URI of your GWM application as it is registered in Azure AD. Obtain this value from the GWM administrator. The following is an example.</p><div class="code"><span codeLanguage="other"><table width="100%" cellspacing="0" cellpadding="0"><tr><th>&nbsp;</th><th></th></tr><tr><td colspan="2"><pre>&lt;add key="ResourceUrl" value="http://gwmdemo.cloudapp.net/" /&gt;</pre></td></tr></table></span></div></li><li><p>Open the DataModel.cs class and change the fields of the <span class="code">DataModel</span> class to match the data that you will be getting from the SAP OData endpoint. For example, if you are getting event data from SAP with name, date, and location values, you can create fields in the class for Name, Date, and Location. Delete fields from the class that do not apply to your data.</p></li><li><p>Open the Default.aspx.cs file and change the value of the <span class="code">SAP_ODATA_URL</span> constant to the stem of your SAP OData endpoint.</p></li><li><p>In the same file, change the parameter that is passed to the <span class="code">GetSAPData</span> method to an OData query that is appropriate for the data you will be getting from SAP. For example, if you are getting information from a dataset called Events, you could use <span class="code">Events?$select=name,date,location</span></p></li><li><p>In the same method, find the line "<span class="code">return item.Brand + " " + item.Model + " " + item.Price;</span>". Change the property names to match the property names you used in the DataModel class; for example "<span class="code">return item.Name + " " + item.Date + " " + item.Location;</span>". (You can, of course, display more or fewer properties.)</p></li></ol></div><h3 class="procedureSubHeading">Register the ASP.NET application with Azure AD</h3><div class="subSection"><ol><li><p>Login into <a href="https://manage.windowsazure.com" target="_blank">Azure Management portal</a> with your Azure administrator account.</p></li><li><p>Choose <span class="ui">Active Directory</span> on the left side.</p></li><li><p>Click on the directory that GWM is using.</p></li><li><p>Choose <span class="ui">APPLICATIONS</span> (on the top navigation bar).</p></li><li><p>Choose <span class="ui">ADD</span> on the toolbar at the bottom of the screen.</p></li><li><p>On the dialog that opens, choose <span class="ui">Add an application my organization is developing</span>.</p></li><li><p>On the <span class="ui">ADD APPLICATION</span> dialog, give the application a name that is appropriate for the type of data the sample app for SharePoint will be getting from SAP. For example, if you will use the sample to get company events data from SAP, use "Contoso Events."</p></li><li><p>Choose <span class="ui">Web Application And/Or Web API</span> as the application type, and then click the right arrow button.</p></li><li><p>On the second page of the dialog, use the SSL debugging URL from the ASP.NET project in the Visual Studio solution as the value for <span class="ui">SIGN-ON URL</span>. You can find the URL using the following steps.</p><ol><li><p>Highlight the ASP.NET project in <span class="ui">Solution Explorer</span>.</p></li><li><p>In the <span class="ui">Properties</span> window, copy the value of the <span class="ui">SSL URL</span> property. An example is <span class="input">https://localhost:44300/</span>.</p></li><li><p>Paste it into the <span class="ui">SIGN-ON URL</span> on the <span class="ui">ADD APPLICATION</span> dialog.</p></li></ol></li><li><p>For the <span class="ui">APP ID URI</span>, give the application a unique URI, such as the application name appended to the end of the SSL URL; for example <span class="input">https://localhost:44300/ContosoEvents</span>.</p></li><li><p>Click the checkmark button. The Azure dashboard for the application opens with a success message.</p></li><li><p>Choose <span class="ui">CONFIGURE</span> on the top of the page.</p></li><li><p>Scroll to the <span class="ui">CLIENT ID</span> and make a copy of it. You will need it for a later procedure.</p></li><li><p>In the <span class="ui">keys</span> section, create a key. It won't appear initially. Click <span class="ui">SAVE</span> at the bottom of the page and the key will be visible. Make a copy of it. You will need it for a later procedure.</p></li><li><p>Scroll to <span class="ui">permissions to other applications</span> and select your GWM service application.</p></li><li><p>Open the <span class="ui">Delegated Permissions</span> drop down list and enable the boxes for the permissions to the GWM service that your app for SharePoint will need.</p></li><li><p>Click <span class="ui">Save</span> at the bottom of the screen.</p></li></ol></div><h3 class="procedureSubHeading">Configure the web.config with the Azure AD client ID and client key</h3><div class="subSection"><ol><li><p>In Visual Studio, return to the web.config file. Insert the client ID that you saved from your Azure AD directory in the earlier procedure as the value of the <span class="keyword">ida:ClientID</span> key. Leave the casing and punctuation exactly as you copied it and be careful not to include a space character at the beginning or end of the value. For the <span class="keyword">ida:ClientKey</span> key use the <i>key</i> that you saved from the directory. Again, be careful not to introduce any space characters or change the value in anyway. The <span class="code">&lt;appSettings&gt;</span> section should now look something like the following. (The <span class="keyword">ClientId</span> key may have a GUID or no value at all.)</p><div class="code"><span codeLanguage="other"><table width="100%" cellspacing="0" cellpadding="0"><tr><th>&nbsp;</th><th></th></tr><tr><td colspan="2"><pre>&lt;appSettings&gt;
+  &lt;add key="ClientId" value="" /&gt;
+  &lt;add key="ClientSecret" value="LypZu2yVajlHfPLRn5J2hBrwCk5aBOHxE4PtKCjIQkk=" /&gt;
+  &lt;add key="ida:ClientID" value="4da99afe-08b5-4bce-bc66-5356482ec2df" /&gt;
+  &lt;add key="ida:ClientKey" value="URwh/oiPay/b5jJWYHgkVdoE/x7gq3zZdtcl/cG14ss=" /&gt;
+  &lt;add key="Authority" value="gwmdemo.onmicrosoft.com" /&gt;
+  &lt;add key="AppRedirectUrl" value="https://localhost:44322/Pages/Default.aspx" /&gt;
+  &lt;add key="ResourceUrl" value="http://gwmdemo.cloudapp.net/" /&gt;
+&lt;/appSettings&gt;</pre></td></tr></table></span></div></li><li><p>Save and close the web.config file.</p><div class="alert"><table width="100%" cellspacing="0" cellpadding="0"><tr><th align="left"><b>Tip</b></th></tr><tr><td><p>Do not leave the web.config file open when you run the Visual Studio debugger (F5). The Office Developer Tools for Visual Studio change the <span class="keyword">ClientId</span> value (not the <span class="keyword">ida:ClientID</span>) every time you press F5. This requires you to respond to a prompt to reload the web.config file, if it is open, before debugging can execute.</p></td></tr></table></div></li></ol></div></div><a name="sectionSection3"></a><h2 class="heading">Run and test the sample</h2><div id="sectionSection3" class="section" name="collapseableSection" style=""><p>You can test the sample with the Visual Studio debugger.</p><div class="subSection"><ol><li><p>Press F5 in Visual Studio.</p></li><li><p>The first time that you use F5, you may be prompted to login to the Office 365 Developer Site that you are using. Use the site administrator credentials.</p></li><li><p>The first time that you use F5, you are prompted to grant permissions to the app. Click <span class="ui">Trust It</span>.</p></li><li><p>The app will launch and SharePoint will redirect to the Default.aspx page at your "localhost:<i>&lt;port&gt;</i>" domain. After a brief delay while the access token is being obtained, the Default.aspx page opens. Verify that the SAP data appears.</p></li></ol></div></div></div></div>
+<p></p>
+<p></p>
+</body></html>

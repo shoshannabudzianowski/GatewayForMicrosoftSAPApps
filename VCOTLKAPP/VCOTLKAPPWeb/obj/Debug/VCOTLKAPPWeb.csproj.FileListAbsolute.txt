@@ -1,0 +1,11 @@
+c:\users\rapraj\documents\visual studio 2013\Projects\VCOTLKAPP\VCOTLKAPPWeb\bin\VCOTLKAPPWeb.dll.config
+c:\users\rapraj\documents\visual studio 2013\Projects\VCOTLKAPP\VCOTLKAPPWeb\bin\VCOTLKAPPWeb.dll
+c:\users\rapraj\documents\visual studio 2013\Projects\VCOTLKAPP\VCOTLKAPPWeb\bin\VCOTLKAPPWeb.pdb
+c:\users\rapraj\documents\visual studio 2013\Projects\VCOTLKAPP\VCOTLKAPPWeb\bin\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+c:\users\rapraj\documents\visual studio 2013\Projects\VCOTLKAPP\VCOTLKAPPWeb\bin\Microsoft.IdentityModel.Clients.ActiveDirectory.WindowsForms.dll
+c:\users\rapraj\documents\visual studio 2013\Projects\VCOTLKAPP\VCOTLKAPPWeb\bin\Newtonsoft.Json.dll
+c:\users\rapraj\documents\visual studio 2013\Projects\VCOTLKAPP\VCOTLKAPPWeb\bin\Microsoft.IdentityModel.Clients.ActiveDirectory.xml
+c:\users\rapraj\documents\visual studio 2013\Projects\VCOTLKAPP\VCOTLKAPPWeb\bin\Newtonsoft.Json.xml
+c:\users\rapraj\documents\visual studio 2013\Projects\VCOTLKAPP\VCOTLKAPPWeb\obj\Debug\VCOTLKAPPWeb.csprojResolveAssemblyReference.cache
+c:\users\rapraj\documents\visual studio 2013\Projects\VCOTLKAPP\VCOTLKAPPWeb\obj\Debug\VCOTLKAPPWeb.dll
+c:\users\rapraj\documents\visual studio 2013\Projects\VCOTLKAPP\VCOTLKAPPWeb\obj\Debug\VCOTLKAPPWeb.pdb

@@ -1,0 +1,53 @@
+﻿<Page
+    x:Class="SAP2UniversalApp.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:SAP2UniversalApp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="360"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <StackPanel Grid.Row="0" Grid.Column="0" Margin="30,30,30,0">
+            <Border Background="Transparent"  BorderBrush="Gray" BorderThickness="5">
+                <Button x:Name="SAPGWM" Click="SAPGWM_Click" HorizontalAlignment="Center" BorderBrush="Gray">
+                    <StackPanel Width="auto">
+                        <TextBlock Text="Get Data" FontSize="40" />
+                        <TextBlock Text="Click to access GWM data" FontSize="16"/>
+                    </StackPanel>
+                </Button>
+            </Border>
+        </StackPanel>
+
+        <StackPanel Grid.Row="0" Grid.Column="1" Margin="30,30,30,0">
+            <Border Background="Transparent"  BorderBrush="Gray" BorderThickness="5">
+                <StackPanel>
+                    <TextBlock x:Name="HelpText"  Text="This is the sample application of Windows 8 to retrieve GWM data." TextWrapping="Wrap" FontSize="40" />
+                    <WebView x:Name="SignInPage" Height="800" NavigationStarting="SignInPage_NavigationStarting"/>
+                    <ListView x:Name="DataList" ItemsSource="{Binding}">
+                        <ListView.ItemTemplate>
+                            <DataTemplate>
+                                <StackPanel>
+                                    <TextBlock Grid.Row="0" Grid.ColumnSpan="3" Text="{Binding Title}" FontSize="35"/>
+                                    <TextBlock Grid.Row="1" Grid.Column="0" Text="{Binding Engine}" FontSize="20"/>
+                                    <TextBlock Grid.Row="1" Grid.Column="1" Text="{Binding ExtColor}" FontSize="20"/>
+                                    <TextBlock Grid.Row="1" Grid.Column="2" Text="{Binding Price}" FontSize="20"/>
+                                    <TextBlock Grid.Row="2" Grid.Column="0" Text="{Binding Status}" FontSize="20"/>
+                                    <TextBlock Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="2" Text="{Binding ContactPhone}" FontSize="20"/>
+                                </StackPanel>
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                    </ListView>
+                </StackPanel>
+            </Border>
+        </StackPanel>
+    </Grid>
+</Page>

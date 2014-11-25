@@ -1,0 +1,2 @@
+bin\Debug\OfficeAppManifests\VCOTLKAPPManifest.xml
+c:\users\rapraj\documents\visual studio 2013\Projects\VCOTLKAPP\VCOTLKAPP\bin\Debug\VCOTLKAPP.debugapp
